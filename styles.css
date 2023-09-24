@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    /* background-color: blueviolet; */
+    background-image: url("assets/ufrpe-sede2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-top: 25px;
+}
+
+nav div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+img {
+    width: 100px;
+    height: 50px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+i {
+    color: #000000;
+}
+
+i:hover {
+    color: #0162b3;
+}
+
+li:hover {
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    transition-delay: 150ms;
+    transition-duration: 500ms;
+}
